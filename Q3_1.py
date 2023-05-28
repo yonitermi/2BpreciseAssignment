@@ -3,7 +3,7 @@ import requests
 # Make the API request
 url = "https://api.cpicpgx.org/v1/allele"
 params = {
-    "genesymbol": "eq.CYC2D6"
+    "genesymbol": "eq.CYP2D6"
 }
 response = requests.get(url, params=params)
 
